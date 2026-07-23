@@ -9,7 +9,7 @@ MAX_UPLOAD_BYTES = 15 * 1024 * 1024  # 15 MB
 app.config["MAX_CONTENT_LENGTH"] = MAX_UPLOAD_BYTES
 
 # Loaded once at startup and reused for every request.
-_session = new_session("u2net")
+_session = new_session("u2netp")
 
 
 @app.route("/")
