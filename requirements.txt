@@ -1,5 +1,5 @@
 flask==3.0.3
 gunicorn==23.0.0
-rembg==2.0.59
 pillow==10.4.0
 onnxruntime==1.18.1
+numpy
